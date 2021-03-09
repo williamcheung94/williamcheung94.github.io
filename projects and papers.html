@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project and Papers - About William Cheung</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">William Cheung</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="The Journey.html">The Journey</a></li>
+								<li><a href="Projects and Papers.html">Projects and Papers</a></li>
+								<li><a href="Extracurricular.html">Extracurricular</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<div class="logo"><span class="fas fa-chess-knight" style="font-size:36px"></span></div>
+								<h2>Projects and Papers</h2>
+								<p>Building Tools to Improve Quality of Life</p>
+								<span style="float: left; margin-right:1em;"><a href="https://www.linkedin.com/in/william-cheung-952858121/"><i class="icon brands fa-linkedin-square"></i></a></span>
+								<span style="float: left;"><a href="https://www.instagram.com/cheung4170/"><i class="icon brands fa-instagram"></i></a></span>
+								<!--
+								<span style="float: left; margin-right:1em;"><a href="https://www.facebook.com/william.cheung.7140//"><i class="icon brands fa-facebook-f"></i></a></span>
+								-->
+								<br/> <br/>
+								<p><a href="doc/William Resume 2021.pdf" class="special">Copy of my Resume</a></p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<h3 class="major" style="color:cyan">IoT wearable User Authentication with Biometrics</h3>
+									<p>With the increasing use of smart technology more sensitive information is accessible through smart wearables.
+										Some of their wearables such as watches and glasses make implementing log-in requests more difficult due to small
+										interfaces. People are also often overwhelmed by the number of passwords they use. As a result, we present a
+										continuous implicit authentication scheme that ensures safety while making life easier.</p>
+									<p>To enable the system to authenticate users in both the stationary and non-stationary case various
+										combinations of heart rate, gait (movement patterns), and breathing was used. We initially used more simple
+										machine learning modeling such as Random Forest, Support Vector Machine, K-Nearest Neighbors, and Naive Bayes
+										to train models.</p>
+									<p>Finally we moved to train deep learning and different types of neural networks from (CNN, RNN, and CRNN) to find accuracies of up to 97.3% &plusmn; 0.4%. We implemented these models through TensorFlow. The main
+									   application ran on the phone with Java while the communication was facilitated to the watch wearable through
+										 our server using JavaScript.</p>
+									<center><a><img src="images/IoT.png" style="width:568px;height:250px;"/></a></center>
+									<p><br/></p>
+									<p>“Continuous Authentication of Wearable Device Users from Heart Rate, Gait, and Breathing Data” IEEE RAS/EMBS
+										International Conference on Biomedical Robotics & Biomechatronics (BioRob)</p>
+									<p><a href="https://arxiv.org/pdf/2008.10779.pdf" class="special">BioRob Paper</a></p>
+									<p>“Context-Dependent Implicit Authentication for Wearable Device User” IEEE International Symposium on Personal,
+									Indoor and Mobile Radio Communications (PIMRC)</p>
+									<p><a href="https://arxiv.org/pdf/2008.12145.pdf" class="special">PIMRC Paper</a></p>
+									<p>“Securing IoT Wearables Using On-Phone DNN Models Running on Breathing Sounds from Microphones” [Submition in Progress]</p>
+									<p>“Bag of On-Phone NN models to Secure IoT Objects Using Wearable and Smartphone Data Fusion” [Submition in Progress]</p>
+
+									<h3 class="major" style="color:cyan">Point of Interest tracking through IoT wearables</h3>
+									<span style="float: right;"><a><img src="images/POI.jfif" style="width:194px;height:145px;"/></a></span>
+									<p>TThere are two types of point of interest (POI) tendencies we want to learn. One that creates an understanding of
+										crowd patterns (global model) and one that predicts individual movement (individual models). Using commonly found biometrics on wrist wearables was used along with time data. We are able to predict POI location with the global model at 66.3% &plusmn; 7.0%
+									  accuracy and 95.3% &plusmn; 2.5% accuracy with the individual model.</p>
+									<p>“Time-  and  Activity-Driven  Biometric  Patterns  for Places  of  Importance  (POI)  Prediction” [Submition in Progress]</p>
+
+									<h3 class="major" style="color:cyan">Hotel Review Sentiment Analysis</h3>
+									<span style="float: left; margin-right:1.25em;"><a><img src="images/pos_word_cloud.png" style="width:144px;height:150px;"/></a></span>
+									<p>Currently over three quaters of hotel reviews are controled by four companies:  Booking.com, TripAdvisor, Google,and  Hotels.com.
+									However, using machine learning we can try to use crowd data such as social media posts to rate hotels. Using data from Hotels.com we
+									developed CNN and GRU models using Bag of Words (BOW) and Term Frequency - Inverse Document Frequency (TF-IDF) features to classify
+									comments as supportive, neutral, or negative reviews. </p>
+									<p><a href="doc/European_Luxury_Hotel_Sentiment_Analysis_Using_Convolutional_Neural_Networks.pdf" class="special">Related Documentation for More Details</a></p>
+
+									<h3 class="major" style="color:cyan">Trading Bot: A technical and Reddit Hybrid Approch</h3>
+									<p>Work in progress.</p>
+
+									<h3 class="major" style="color:cyan">Spark and Big Data Analytics:</h3>
+
+										<h4 class="major" style="color:white">NYC Parking Violation Prediction</h4>
+										<p>There is not supposed to be any bias in issuing car tickets but we were very curious about the trends. Car type, time of day, area,
+											etc there are many factors we looked into as per who was most likely to get tickets.</p>
+										<h4 class="major" style="color:white">NBA Player Effectiveness Analytics</h4>
+										<p>Using analytics in part of NBA strategy is a common practice. With data on NBA players, we compute the defender players’ most fear,
+											as well as the optimal shot situation (shot-clock time, position, and nearest defender location) for various players.</p>
+											<center>
+												<a><img src="images/Lebron James.jpg" style="width:150px;height:150px;"/></a>
+												<a><img src="images/Steph Curry.jpg" style="width:150px;height:150px;"/></a>
+												<a><img src="images/Chris Paul.jpg" style="width:150px;height:150px;"/></a>
+												<a><img src="images/James Harden.jpg" style="width:150px;height:150px;"/></a>
+											</center>
+
+									<p><a href="doc/CISC_5950_Project_1.pdf" class="special">Related Documentation for More Details</a></p>
+
+									<h3 class="major" style="color:cyan">Spark and Machine Learning with Big Data:</h3>
+
+										<h4 class="major" style="color:white">Toxic Comment Classification</h4>
+										<span style="float: right;"><a><img src="images/toxic_comments.jfif" style="width:224px;height:126px;"/></a></span>
+										<p>With the rise in online anonymity there is a growth of cyberbullying as well. It’s hard to track conversations to manually detect
+											bullying and having reporting options can still be overwhelmed by sheer volume. We attempt to train a linear regressor to detect Toxic
+											users automatically.</p>
+										<h4 class="major" style="color:white">Heart Disease Prediction</h4>
+										<p>Machine learning has also assisted in medical advancements, most commonly in diagnoses. Preventative care being as cost-efficient
+											and important as it greatly benefits when people can quickly get access. Here we try to detect the threat of heart
+											disease given lifestyle and personal factors. With logistic regression, we can achieve 86% accuracy in detection.</p>
+										<h4 class="major" style="color:white">Income Prediction</h4>
+										<span style="float: left; margin-right:1.25em;"><a><img src="images/income_prediction.jfif" style="width:150px;height:150px;"/></a></span>
+										<p> It’s important to see how people's background can affect their financial stability in life. Although we would like everyone to have
+											the same opportunities your background may affect how much you earn. We predicted if individuals with given background would be earning
+											more or less than fifty thousand dollars at 85% accuracy. </p>
+										<br /> <br />
+									<a href="doc/CISC_5950_Project_2.pdf" class="special">Related Documentation for More Details</a>
+
+									<!--
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+											<h3 class="major">Sed feugiat lorem</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<h3 class="major">Nisl placerat</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+									</section>
+									-->
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Untitled Inc<br />
+									1234 Somewhere Road Suite #2894<br />
+									Nashville, TN 00000-0000
+								</li>
+								<li class="icon solid fa-phone">(000) 000-0000</li>
+								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
+								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
+								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+		-->
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
